@@ -2,8 +2,9 @@
 
 int main()
 {
-   /* my first program in C */
-   printf("Hello, World! \n");
-   
-   return 0;
+	const int ADD = 5;
+    int integer = 10;
+    integer += ADD;
+    printf("Sum of values: %d \n",integer);
+    return 0;
 }
